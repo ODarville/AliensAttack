@@ -20,6 +20,21 @@
 
 // There are six alien ships. The aliens' weakness is that they are too logical and attack one at a time: they will wait to see the outcome of a battle before deploying another alien ship. Your strength is that you have the initiative and get to attack first. However, you do not have targeting lasers and can only attack the aliens in order. After you have destroyed a ship, you have the option to make a hasty retreat.
 
+// Declarations //
+const alien = document.querySelectorAll('.alien');
+const player = document.querySelector('.player');
+const scoreboard = document.querySelector('.scoreboard');
+const alienStatus = document.querySelectorAll('.alienStatus');
+const alienModel = document.querySelectorAll('.alienModel');
+const playerStatus = document.querySelector('.playerStatus'); 
+const playerModel = document.querySelector('.playerModel');
+const attack = document.querySelector('.attack');
+const retreat = document.querySelector('.retreat');
+const defend = document.querySelector('.defend');
+const playerHp = document.querySelector('.playerhp');
+const alienHp = document.querySelector('.alienhp');
+const playershield = document.querySelector('.playershield');
+const alienshield = document.querySelector('.alienshield');
 
 // A game round would look like this:
 // You attack the first alien ship

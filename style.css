@@ -1,0 +1,51 @@
+main{
+    border: solid red;
+}
+.top{
+    border: solid orange;
+}
+.topmain{
+    border: solid yellow;
+}
+.alien{
+    border: solid green;
+}
+.alienStatus{
+    border: solid blue;
+}
+.alienHp{
+    border: solid indigo;
+}
+.alienShield{
+    border: solid violet;
+}
+.alienModel{
+    border: solid black;
+}
+.center{
+    border: solid gray;
+}
+.scoreboard{
+    border: solid chartreuse;
+}
+.bottom{
+    border: solid crimson;
+}
+.player{
+    border: solid brown;
+}
+.playerStatus{
+    border: solid burlywood;
+}
+.playerHp{
+    border: solid aqua;
+}
+.playerShield{
+    border: solid darkseagreen;
+}
+.playerModel{
+    border: solid fuchsia;
+}
+.buttons{
+    border: solid gold;
+}
