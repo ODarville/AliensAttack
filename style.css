@@ -1,5 +1,8 @@
-main{
+.main{
     border: solid red;
+    height: 100vh;
+    width: 100vw;
+    
 }
 .top{
     border: solid orange;
@@ -12,6 +15,9 @@ main{
 }
 .alienStatus{
     border: solid blue;
+    color: white;
+    position: absolute;
+    left: 1000px;
 }
 .alienHp{
     border: solid indigo;
@@ -21,6 +27,9 @@ main{
 }
 .alienModel{
     border: solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .center{
     border: solid gray;
@@ -29,13 +38,16 @@ main{
     border: solid chartreuse;
 }
 .bottom{
-    border: solid crimson;
+    border: solid cyan;
 }
 .player{
     border: solid brown;
 }
 .playerStatus{
     border: solid burlywood;
+    color: white;
+    position: absolute;
+    left: 670px;
 }
 .playerHp{
     border: solid aqua;
@@ -45,7 +57,18 @@ main{
 }
 .playerModel{
     border: solid fuchsia;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .buttons{
     border: solid gold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+body{
+    background-image:url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg);
+    /* background-image: url(); */
+   
 }

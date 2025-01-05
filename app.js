@@ -36,6 +36,55 @@ const alienHp = document.querySelector('.alienhp');
 const playershield = document.querySelector('.playershield');
 const alienshield = document.querySelector('.alienshield');
 
+// Functions //
+
+// Classes //
+
+class Ships{
+    constructor(hp, firepower, accuracy) {
+        this.hp = hp;
+        this.firepower = firepower;
+        this.accuracy = accuracy;
+    }
+    // In the ships I need a function that alien will attack the player and the player will have a function that will attack the alien maybe they can eb same function??
+}
+class Alien extends Ships {
+    constructor() {
+        super(hp, firepower, accuracy);
+    }
+    hp = Math.floor(Math.random() * (6 - 3) + 3);
+    firepower = Math.floor(Math.random() * (4 - 2) + 2);
+    accuracy = Math.floor(Math.random() * (.8 - .6) + .6);
+}
+const alien1 = new Alien();
+const alien2 = new Alien();
+const alien3 = new Alien();
+const alien4 = new Alien();
+const alien5 = new Alien();
+const alien6 = new Alien();
+
+class Player extends Ships{
+    constructor() {
+        super(hp = 10, firepower = 5, accuracy = .7);
+    }   
+}
+
+
+const USS_Assembly = new Player();
+
+// Event Listeners //
+attack.addEventListener('click', function() {
+    
+});
+
+retreat.addEventListener('click', function() {
+    
+});
+
+defend.addEventListener('click', function() {    
+
+});
+// Create a turn cycle that takes in a action(player action) display event of action maybe then ask if anyone dead and if yes then then start new round if no next turn.
 // A game round would look like this:
 // You attack the first alien ship
 // If the ship survives, it attacks you
